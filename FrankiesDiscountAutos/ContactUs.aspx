@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="FrankiesDiscountAutos.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="FrankiesDiscountAutos.ContactUs" %>
 <%@ Register Src="~/controls/Header.ascx" tagname="Header" TagPrefix="uc1" %>
 <%@ Register Src="~/controls/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
 
@@ -6,7 +6,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Frankie's Discount Autos</title>
+    <title>Contact Us || Frankie's Discount Autos</title>
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
@@ -18,12 +19,14 @@
 </head>
 
 <body>
+
     <form id="form1" runat="server">
-        <uc1:Header ID="Header1" runat="server" heading="Welcome to Frankie's Discount Autos!" />
+        <uc1:Header ID="Header1" runat="server" heading="Contact Us" />
 
 
 
         <uc2:Footer ID="Footer1" runat="server" />
     </form>
+    
 </body>
 </html>

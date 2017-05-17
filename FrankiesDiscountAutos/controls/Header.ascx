@@ -4,24 +4,21 @@
     public string heading = "Page Heading";
 </script>
 
-   <asp:Panel ID="mainMenu" runat="server" Height="147px">
-    <asp:Panel ID="logoPanel" runat="server" Height="249px" BackColor="Black" CssClass="jumbotron">
-        <img alt="Frankie's Discount Auto" class="auto-style1" src="images/headerImage.jpg" />
-        <img class="auto-style2" src="images/red-mercedes-benz-150-convertible-classic-car-web-header.jpg" />
-        <br />
-        <br />
-        <a href="AboutUs.aspx"><asp:LinkButton ID="aboutUsButton" runat="server" ForeColor="Red">About Us</asp:LinkButton></a>
-        &nbsp;||
-        <a href="ContactUs.aspx"><asp:LinkButton ID="contactUsButton" runat="server" ForeColor="Red">Contact Us</asp:LinkButton></a>
-        &nbsp;||
-        <a href="Cars.aspx"> <asp:LinkButton ID="ourCarsButton" runat="server" ForeColor="Red">Our Cars</asp:LinkButton></a>
-        &nbsp;||
-        <a href="TestDrive.aspx"><asp:LinkButton ID="testDriveButton" runat="server" ForeColor="Red">Test Drive</asp:LinkButton></a>
-        <h1><%= heading %></h1>
-      </asp:Panel>
-    </asp:Panel>
+<asp:Panel ID="logoPanel" runat="server" Height="132px">
+    <a href="../Home.aspx"><img alt="" class="img-responsive" src="../images/headerImage.jpg"</img></a>
+</asp:Panel>
 
-<div style="margin-top: 140px">
-</div>
+<asp:Panel ID="menuPanel" runat="server" ForeColor="Red" Height="33px" style="margin-top: 15px">
+    <a href="AboutUs.aspx">About Us</a> ||
+    <a href="ContactUs.aspx">Contact Us</a> ||
+    <a href="Cars.aspx">Our Cars</a> ||
+    <a href="TestDrive.aspx">Test Drive</a> ||
+</asp:Panel>
+
+<h1><%= heading %></h1>
+
+
+
+
 
     
