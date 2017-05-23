@@ -1,11 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="UserLogin.aspx.cs" Inherits="UserLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" %>
 <%@ Register Src="~/controls/Header.ascx" tagname="Header" TagPrefix="uc1" %>
 <%@ Register Src="~/controls/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>User Login || Frankie's Discount Autos</title>
+    <title>Register || Frankie's Discount Autos</title>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -19,13 +20,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <uc1:Header ID="Header1" runat="server" heading="User Login" />
+        <uc1:Header ID="Header1" runat="server" heading="Register" />
 
+
+        <uc2:Footer ID="Footer1" runat="server" />
     <div>
     
     </div>
-
-    <uc2:Footer ID="Footer1" runat="server" />
     </form>
 </body>
 </html>
